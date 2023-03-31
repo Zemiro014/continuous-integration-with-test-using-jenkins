@@ -1,0 +1,194 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2023 18:26:59.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
+31-Mar-2023 18:26:59.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
+31-Mar-2023 18:26:59.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
+31-Mar-2023 18:26:59.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Mar-2023 18:26:59.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-41-generic
+31-Mar-2023 18:26:59.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Mar-2023 18:26:59.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/jeronimo/.sdkman/candidates/java/11.0.2-open
+31-Mar-2023 18:26:59.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9
+31-Mar-2023 18:26:59.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2023 18:26:59.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50
+31-Mar-2023 18:26:59.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50
+31-Mar-2023 18:26:59.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2023 18:26:59.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2023 18:26:59.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2023 18:26:59.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/conf/logging.properties
+31-Mar-2023 18:26:59.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2023 18:26:59.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Mar-2023 18:26:59.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Mar-2023 18:26:59.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-Mar-2023 18:26:59.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Mar-2023 18:26:59.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50
+31-Mar-2023 18:26:59.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50
+31-Mar-2023 18:26:59.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/temp
+31-Mar-2023 18:26:59.119 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+31-Mar-2023 18:26:59.259 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 18:26:59.297 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Mar-2023 18:26:59.352 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8001"]
+31-Mar-2023 18:26:59.354 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Mar-2023 18:26:59.360 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1436 ms
+31-Mar-2023 18:26:59.618 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2023 18:26:59.618 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+31-Mar-2023 18:26:59.713 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/examples]
+31-Mar-2023 18:27:01.730 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [138] milliseconds.
+31-Mar-2023 18:27:01.834 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/examples] has finished in [2,121] ms
+31-Mar-2023 18:27:01.835 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/manager]
+31-Mar-2023 18:27:01.891 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/manager] has finished in [55] ms
+31-Mar-2023 18:27:01.902 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/ROOT]
+31-Mar-2023 18:27:01.934 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/ROOT] has finished in [31] ms
+31-Mar-2023 18:27:01.934 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/host-manager]
+31-Mar-2023 18:27:01.984 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/host-manager] has finished in [50] ms
+31-Mar-2023 18:27:01.985 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/docs]
+31-Mar-2023 18:27:02.024 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/docs] has finished in [39] ms
+31-Mar-2023 18:27:02.067 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 18:27:02.202 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8001"]
+31-Mar-2023 18:27:02.247 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2886 ms
+31-Mar-2023 18:27:54.189 SEVERE [ajp-nio-8001-exec-1] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:27:54.192 SEVERE [ajp-nio-8001-exec-2] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:27:54.196 SEVERE [ajp-nio-8001-exec-3] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:27:55.279 SEVERE [ajp-nio-8001-exec-4] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:27:55.284 SEVERE [ajp-nio-8001-exec-5] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:27:55.287 SEVERE [ajp-nio-8001-exec-7] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:28:00.388 SEVERE [ajp-nio-8001-exec-8] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:28:00.391 SEVERE [ajp-nio-8001-exec-6] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:28:00.393 SEVERE [ajp-nio-8001-exec-9] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:28:14.462 SEVERE [ajp-nio-8001-exec-10] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:28:14.463 SEVERE [ajp-nio-8001-exec-1] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:28:14.465 SEVERE [ajp-nio-8001-exec-2] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:28:44.515 SEVERE [ajp-nio-8001-exec-3] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:28:44.517 SEVERE [ajp-nio-8001-exec-4] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:28:44.518 SEVERE [ajp-nio-8001-exec-5] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:29:36.502 SEVERE [ajp-nio-8001-exec-7] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:29:36.503 SEVERE [ajp-nio-8001-exec-8] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:29:36.505 SEVERE [ajp-nio-8001-exec-6] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:29:37.558 SEVERE [ajp-nio-8001-exec-9] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:29:37.562 SEVERE [ajp-nio-8001-exec-10] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:29:37.564 SEVERE [ajp-nio-8001-exec-1] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:29:42.587 SEVERE [ajp-nio-8001-exec-2] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:29:42.589 SEVERE [ajp-nio-8001-exec-3] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:29:42.593 SEVERE [ajp-nio-8001-exec-4] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:30:12.618 SEVERE [ajp-nio-8001-exec-5] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:30:12.620 SEVERE [ajp-nio-8001-exec-7] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:30:12.622 SEVERE [ajp-nio-8001-exec-8] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:31:12.651 SEVERE [ajp-nio-8001-exec-6] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:31:12.652 SEVERE [ajp-nio-8001-exec-9] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:31:12.654 SEVERE [ajp-nio-8001-exec-10] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+31-Mar-2023 18:31:22.811 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+31-Mar-2023 18:31:22.811 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 18:31:22.821 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8001"]
+31-Mar-2023 18:31:22.828 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2023 18:31:22.901 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 18:31:22.902 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8001"]
+31-Mar-2023 18:31:22.905 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 18:31:22.907 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8001"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2023 18:31:58.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
+31-Mar-2023 18:31:58.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
+31-Mar-2023 18:31:58.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
+31-Mar-2023 18:31:58.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Mar-2023 18:31:58.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-41-generic
+31-Mar-2023 18:31:58.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Mar-2023 18:31:58.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/jeronimo/.sdkman/candidates/java/11.0.2-open
+31-Mar-2023 18:31:58.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9
+31-Mar-2023 18:31:58.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2023 18:31:58.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50
+31-Mar-2023 18:31:58.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50
+31-Mar-2023 18:31:58.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2023 18:31:58.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2023 18:31:58.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2023 18:31:58.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/conf/logging.properties
+31-Mar-2023 18:31:58.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2023 18:31:58.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Mar-2023 18:31:58.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Mar-2023 18:31:58.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-Mar-2023 18:31:58.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Mar-2023 18:31:58.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50
+31-Mar-2023 18:31:58.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50
+31-Mar-2023 18:31:58.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/temp
+31-Mar-2023 18:31:58.432 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+31-Mar-2023 18:31:58.477 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+31-Mar-2023 18:31:58.501 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Mar-2023 18:31:58.520 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2023 18:31:58.522 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Mar-2023 18:31:58.523 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 688 ms
+31-Mar-2023 18:31:58.599 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2023 18:31:58.600 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+31-Mar-2023 18:31:58.619 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/examples]
+31-Mar-2023 18:31:59.312 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/examples] has finished in [694] ms
+31-Mar-2023 18:31:59.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/manager]
+31-Mar-2023 18:31:59.348 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/manager] has finished in [35] ms
+31-Mar-2023 18:31:59.348 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/ROOT]
+31-Mar-2023 18:31:59.370 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/ROOT] has finished in [22] ms
+31-Mar-2023 18:31:59.370 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/host-manager]
+31-Mar-2023 18:31:59.396 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/host-manager] has finished in [25] ms
+31-Mar-2023 18:31:59.396 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/docs]
+31-Mar-2023 18:31:59.416 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/docs] has finished in [20] ms
+31-Mar-2023 18:31:59.425 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+31-Mar-2023 18:31:59.453 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2023 18:31:59.488 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 963 ms
+31-Mar-2023 18:37:19.545 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/conf/tomcat-users.xml]
+31-Mar-2023 18:40:29.594 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+31-Mar-2023 18:40:29.623 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/manager]
+31-Mar-2023 18:40:29.660 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/manager] has finished in [38] ms
+31-Mar-2023 18:40:44.217 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+31-Mar-2023 18:40:44.217 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8001"]
+31-Mar-2023 18:40:44.226 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2023 18:40:44.232 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2023 18:40:44.273 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8001"]
+31-Mar-2023 18:40:44.276 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2023 18:40:44.278 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8001"]
+31-Mar-2023 18:40:44.279 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2023 18:40:49.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
+31-Mar-2023 18:40:49.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
+31-Mar-2023 18:40:49.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
+31-Mar-2023 18:40:49.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Mar-2023 18:40:49.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-41-generic
+31-Mar-2023 18:40:49.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Mar-2023 18:40:49.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/jeronimo/.sdkman/candidates/java/11.0.2-open
+31-Mar-2023 18:40:49.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9
+31-Mar-2023 18:40:49.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2023 18:40:49.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50
+31-Mar-2023 18:40:49.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50
+31-Mar-2023 18:40:49.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2023 18:40:49.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2023 18:40:49.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2023 18:40:49.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/conf/logging.properties
+31-Mar-2023 18:40:49.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2023 18:40:49.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Mar-2023 18:40:49.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Mar-2023 18:40:49.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-Mar-2023 18:40:49.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Mar-2023 18:40:49.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50
+31-Mar-2023 18:40:49.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50
+31-Mar-2023 18:40:49.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/temp
+31-Mar-2023 18:40:49.791 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+31-Mar-2023 18:40:49.844 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+31-Mar-2023 18:40:49.860 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Mar-2023 18:40:49.878 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2023 18:40:49.880 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Mar-2023 18:40:49.886 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 704 ms
+31-Mar-2023 18:40:49.959 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2023 18:40:49.960 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+31-Mar-2023 18:40:49.973 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/examples]
+31-Mar-2023 18:40:50.681 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/examples] has finished in [708] ms
+31-Mar-2023 18:40:50.683 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/manager]
+31-Mar-2023 18:40:50.721 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/manager] has finished in [37] ms
+31-Mar-2023 18:40:50.721 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/ROOT]
+31-Mar-2023 18:40:50.743 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/ROOT] has finished in [22] ms
+31-Mar-2023 18:40:50.744 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/host-manager]
+31-Mar-2023 18:40:50.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/host-manager] has finished in [29] ms
+31-Mar-2023 18:40:50.774 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/docs]
+31-Mar-2023 18:40:50.804 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/apache-tomcat-8.5.50/webapps/docs] has finished in [30] ms
+31-Mar-2023 18:40:50.813 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+31-Mar-2023 18:40:50.843 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2023 18:40:50.879 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 992 ms
+31-Mar-2023 18:42:34.717 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+31-Mar-2023 18:42:34.718 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8001"]
+31-Mar-2023 18:42:34.727 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2023 18:42:34.735 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2023 18:42:34.817 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8001"]
+31-Mar-2023 18:42:34.821 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2023 18:42:34.826 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8001"]
+31-Mar-2023 18:42:34.827 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
