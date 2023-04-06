@@ -1,0 +1,6 @@
+03-Apr-2023 17:22:30.401 INFO [http-nio-8001-exec-205] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+03-Apr-2023 17:22:34.888 INFO [http-nio-8001-exec-205] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+03-Apr-2023 17:22:38.435 INFO [http-nio-8001-exec-205] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+03-Apr-2023 22:52:36.190 INFO [http-nio-8001-exec-220] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+03-Apr-2023 22:52:39.660 INFO [http-nio-8001-exec-217] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+03-Apr-2023 22:52:42.182 INFO [http-nio-8001-exec-217] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext

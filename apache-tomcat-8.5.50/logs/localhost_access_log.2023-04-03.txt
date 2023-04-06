@@ -1,0 +1,10 @@
+127.0.0.1 - admin [03/Apr/2023:17:22:30 -0300] "GET /manager/text/list HTTP/1.1" 200 258
+127.0.0.1 - admin [03/Apr/2023:17:22:30 -0300] "GET /manager/text/list HTTP/1.1" 200 258
+127.0.0.1 - admin [03/Apr/2023:17:22:31 -0300] "GET /manager/text/undeploy?path=%2Ftasks-backend HTTP/1.1" 200 72
+127.0.0.1 - admin [03/Apr/2023:17:22:43 -0300] "PUT /manager/text/deploy?path=%2Ftasks-backend HTTP/1.1" 200 70
+0:0:0:0:0:0:0:1 - - [03/Apr/2023:22:22:51 -0300] "GET /tasks/css/bootstrap.min.css HTTP/1.1" 200 159515
+0:0:0:0:0:0:0:1 - - [03/Apr/2023:22:22:51 -0300] "GET /tasks/js/bootstrap.min.js HTTP/1.1" 200 60010
+127.0.0.1 - admin [03/Apr/2023:22:52:36 -0300] "GET /manager/text/list HTTP/1.1" 200 258
+127.0.0.1 - admin [03/Apr/2023:22:52:36 -0300] "GET /manager/text/list HTTP/1.1" 200 258
+127.0.0.1 - admin [03/Apr/2023:22:52:36 -0300] "GET /manager/text/undeploy?path=%2Ftasks-backend HTTP/1.1" 200 72
+127.0.0.1 - admin [03/Apr/2023:22:52:46 -0300] "PUT /manager/text/deploy?path=%2Ftasks-backend HTTP/1.1" 200 70

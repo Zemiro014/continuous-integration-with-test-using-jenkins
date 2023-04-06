@@ -1,0 +1,51 @@
+04-Apr-2023 11:02:13.154 INFO [http-nio-8001-exec-224] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 11:02:13.158 INFO [http-nio-8001-exec-225] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 11:02:13.164 INFO [http-nio-8001-exec-225] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/tasks-backend'
+04-Apr-2023 11:02:13.870 INFO [http-nio-8001-exec-232] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks-backend'
+04-Apr-2023 11:02:13.870 INFO [http-nio-8001-exec-232] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/continuous-integration-with-test-using-jenkins/apache-tomcat-8.5.50/webapps/tasks-backend.war
+04-Apr-2023 13:01:40.656 INFO [http-nio-8001-exec-238] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 13:01:40.668 INFO [http-nio-8001-exec-239] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 13:01:40.673 INFO [http-nio-8001-exec-240] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/tasks-backend'
+04-Apr-2023 13:01:41.660 INFO [http-nio-8001-exec-238] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks-backend'
+04-Apr-2023 13:01:41.661 INFO [http-nio-8001-exec-238] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/continuous-integration-with-test-using-jenkins/apache-tomcat-8.5.50/webapps/tasks-backend.war
+04-Apr-2023 13:07:47.430 INFO [http-nio-8001-exec-244] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 13:07:47.433 INFO [http-nio-8001-exec-245] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 13:07:47.434 INFO [http-nio-8001-exec-246] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/tasks-backend'
+04-Apr-2023 13:07:48.067 INFO [http-nio-8001-exec-245] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks-backend'
+04-Apr-2023 13:07:48.067 INFO [http-nio-8001-exec-245] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/continuous-integration-with-test-using-jenkins/apache-tomcat-8.5.50/webapps/tasks-backend.war
+04-Apr-2023 15:29:35.650 INFO [http-nio-8001-exec-253] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 15:29:35.672 INFO [http-nio-8001-exec-254] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 15:29:35.674 INFO [http-nio-8001-exec-255] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/tasks-backend'
+04-Apr-2023 15:29:36.309 INFO [http-nio-8001-exec-254] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks-backend'
+04-Apr-2023 15:29:36.310 INFO [http-nio-8001-exec-254] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/continuous-integration-with-test-using-jenkins/apache-tomcat-8.5.50/webapps/tasks-backend.war
+04-Apr-2023 15:54:52.540 INFO [http-nio-8001-exec-263] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 15:54:52.545 INFO [http-nio-8001-exec-264] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 15:54:52.548 INFO [http-nio-8001-exec-265] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/tasks-backend'
+04-Apr-2023 15:54:53.231 INFO [http-nio-8001-exec-266] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks-backend'
+04-Apr-2023 15:54:53.231 INFO [http-nio-8001-exec-266] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/continuous-integration-with-test-using-jenkins/apache-tomcat-8.5.50/webapps/tasks-backend.war
+04-Apr-2023 16:02:41.902 INFO [http-nio-8001-exec-273] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 16:02:41.904 INFO [http-nio-8001-exec-274] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 16:02:41.906 INFO [http-nio-8001-exec-275] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/tasks-backend'
+04-Apr-2023 16:02:42.630 INFO [http-nio-8001-exec-276] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks-backend'
+04-Apr-2023 16:02:42.630 INFO [http-nio-8001-exec-276] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/continuous-integration-with-test-using-jenkins/apache-tomcat-8.5.50/webapps/tasks-backend.war
+04-Apr-2023 16:05:33.514 INFO [http-nio-8001-exec-283] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 16:05:33.516 INFO [http-nio-8001-exec-284] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 16:05:33.518 INFO [http-nio-8001-exec-285] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/tasks-backend'
+04-Apr-2023 16:05:34.136 INFO [http-nio-8001-exec-282] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks-backend'
+04-Apr-2023 16:05:34.137 INFO [http-nio-8001-exec-282] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/continuous-integration-with-test-using-jenkins/apache-tomcat-8.5.50/webapps/tasks-backend.war
+04-Apr-2023 17:54:02.615 INFO [http-nio-8001-exec-288] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 17:54:02.636 INFO [http-nio-8001-exec-289] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 17:54:02.638 INFO [http-nio-8001-exec-290] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/tasks-backend'
+04-Apr-2023 17:54:03.418 INFO [http-nio-8001-exec-288] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks-backend'
+04-Apr-2023 17:54:03.418 INFO [http-nio-8001-exec-288] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/continuous-integration-with-test-using-jenkins/apache-tomcat-8.5.50/webapps/tasks-backend.war
+04-Apr-2023 19:52:02.956 INFO [http-nio-8001-exec-303] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 20:58:11.914 INFO [http-nio-8001-exec-301] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 20:58:11.916 INFO [http-nio-8001-exec-299] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 20:58:11.918 INFO [http-nio-8001-exec-300] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/tasks-backend'
+04-Apr-2023 20:58:12.706 INFO [http-nio-8001-exec-301] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks-backend'
+04-Apr-2023 20:58:12.706 INFO [http-nio-8001-exec-301] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/continuous-integration-with-test-using-jenkins/apache-tomcat-8.5.50/webapps/tasks-backend.war
+04-Apr-2023 20:59:01.931 INFO [http-nio-8001-exec-307] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 20:59:01.934 INFO [http-nio-8001-exec-305] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+04-Apr-2023 20:59:01.937 INFO [http-nio-8001-exec-308] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/tasks'
+04-Apr-2023 20:59:02.607 INFO [http-nio-8001-exec-312] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/tasks'
+04-Apr-2023 20:59:02.608 INFO [http-nio-8001-exec-312] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/jeronimo/Documentos/udemy/integracao-continua-testes-jenkins/continuous-integration-with-test-using-jenkins/apache-tomcat-8.5.50/webapps/tasks.war
